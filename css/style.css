@@ -356,7 +356,153 @@ font-weight: bold;
 }
 
 @media only screen
-    and (min-device-width : 320px)    
-    and (max-device-width : 568px) {
+and (min-device-width : 375px)    
+and (max-device-width : 912px) {
+    /* Главная */
+    .header{
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
 
+    .logo{
+        width: 100%;
+    }
+
+    .site_content {
+        width: 100%;
+    }
+
+    .menubar {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site_content {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .side_bar_container {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    ul.menu {
+        float: none;
+    }
+
+    ul.menu li {
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+
+    .logo h1 {
+        font: normal 235% "centtury gothic", arial, sans-serif;
+    }
+
+    .logo h2 {
+        font: normal 100% "centtury gothic", arial, sans-serif;
+        color: white;
+    }
+
+    .content h1, h2 {
+        font: normal 110% "centtury gothic", arial;
+    }
+
+    .films_block img {
+        width: 43%;
+    }
+
+    .posts_content p {
+        line-height: 1.5em;
+        font-size: 208%;
+        padding: 3%;
+        text-align: left;
+    }
+
+    .posts p {
+        font-size: 120%;
+    }
+
+    /* Смотреть */
+
+    .info_films {
+        float: none;
+        height: 100%;
+    }
+
+    .info_films img {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .buttom {
+        float: none; 
+    }
+
+    /* Рейтинг */
+    
+    table {
+        display: block;
+    }
+
+    th {
+        font-size: 80%;
+    }
+
+    td {
+        padding: 0;
+        margin: 0;
+        font-size: 95%;
+        text-align: left;
+    }
+
+    /* Фильм */
+
+    iframe {
+        width: 88%;
+        height: 100%;
+    }
+
+    .description {
+        width: 90%;
+        text-align: 90%;
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .description img {
+        float: none;
+        width: 73%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        margin-left: 11%;
+        margin-bottom: 7%;
+    }
+
+    .reviewes {
+        text-align: left;
+        width: 96%;
+    }
+
+    .send input[type="text"] {
+        width: 80%;
+    }
+
+    .send textarea {
+        width: 80%;
+    }
 }
+
